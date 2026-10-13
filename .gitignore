@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+env/
+venv/
+
+# Cachés de herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos de configuración local e IDEs
+.env
+.vscode/
+.idea/
+
+# Descargas de spacy / modelos
+*.tar.gz
+
+# Caché de respuestas de Wikidata
+.cache/
+
+# Informes de evaluación (se regeneran con evaluation/evaluate.py)
+results/
+
+# Datos de evaluación: se descargan de Hugging Face o se generan con scripts/
+data/
+
+
